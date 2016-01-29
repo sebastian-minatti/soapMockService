@@ -23,12 +23,6 @@ projects: [spring-ws]
 :source-highlighter: prettify
 :project_id: gs-soap-service
 
-This guide walks you through the process of creating a SOAP-based web service server with Spring.
-
-== What you'll build
-
-You will build a server that exposes data from various European countries using a WSDL-based SOAP web service.
-
 == Running app
 
 You can run the application using mvn spring-boot:run. Or you can build the JAR file with 
@@ -61,7 +55,3 @@ As a result you should see this response:
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 ----
-
-== Summary
-
-Congratulations! You've developed a SOAP-based service using Spring Web Services.
